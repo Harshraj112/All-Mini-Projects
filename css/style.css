@@ -1,0 +1,22 @@
+body {
+    font-family: 'poppins', sans-serif;
+}
+
+  .equal-card {
+    height: 400px; /* Total card height */
+  }
+
+  .equal-card img {
+    height: 50%;
+    object-fit: contain;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+
+  .equal-card .card-body {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+  }
